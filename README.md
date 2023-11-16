@@ -1,7 +1,7 @@
 # LPI-SKMSC
-LPI-SKMSC was a clustering-based lncRNA-protein interactions(LPIs) prediction method using segmented k-mer frequencies and multi-space clustering. It was dedicated to handling the imbalance of positive and negative samples.
+A clustering-based lncRNA-protein interactions prediction method for handling imbalanced datasets.
 
-The current code is the test part of LPI-SKMSC. Predictive metrics can be obtained by testing the trained model. The complete code will be submitted after the paper is accepted.
+The current code is the test part of LPI-SKMSC. Predictive metrics can be obtained by testing the trained model. We will submit the complete code soon.
 
 ## Dependency
 
