@@ -1,8 +1,6 @@
 # LPI-SKMSC
 A clustering-based lncRNA-protein interactions prediction method for handling imbalanced datasets.
 
-The current code is the test part of LPI-SKMSC. Predictive metrics can be obtained by testing the trained model. We will submit the complete code soon.
-
 ## Dependency
 
 python 3.6
@@ -15,9 +13,16 @@ https://drive.google.com/file/d/1u6q7tiyHYdXaPAOV4MWOSfhhQEwAp8S2/view?usp=shari
 
 Unzip the data.zip in the project to the current folder.
 
-Test LPI-SKMISC under different datasets：
+Test LPI-SKMSC：
 ```python
 python val_test.py -f RPI1847
-python val_test.py -f RPI7317
-python val_test.py -f RPI488
+```
+
+## Train
+
+Unzip the data.zip in the project to the current folder.
+
+Train LPI-SKMSC:
+```python
+python LPI_SKMSC.py -f RPI1847
 ```
